@@ -14,15 +14,14 @@
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
-      "**/*"
+      "assets/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
+       "package": "bsapp.site",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
